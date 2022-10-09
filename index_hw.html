@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>MAKE YOUR OWN PROJECT</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script
+        src="https://unpkg.com/aframe-spe-particles-component@1.0.4/dist/aframe-spe-particles-component.min.js"></script>
+
+</head>
+
+<body>
+    <a-scene id="scene">
+        <a-sky color="black"></a-sky>
+        <a-camera position="0 0 20"></a-camera>
+        <a-entity position="-18 0 0"
+            spe-particles="color: white,grey,red,pink,pink ; position-spread: 20 30 0; radius:2 ; randomize-position: true; particle-count: 300; velocity: 0 -10 0; max-age: .5">
+       
+        </a-entity>
+        <a-entity spe-particles="texture: https://harlyq.github.io/aframe-spe-particles-component/assets/fog.png; velocity: .2 1 0;position-spread: 10 -30 0; velocity-spread: .2 0 .2; particle-count: 100; max-age: 3; size: 3,8; opacity: 0,1,0; color: #aaa,#222"></a-entity>
+        <a-entity spe-particles="texture: https://harlyq.github.io/aframe-spe-particles-component/assets/fog.png; velocity: .2 1 0;position-spread: 12 -30 0; velocity-spread: .2 0 .2; particle-count: 100; max-age: 3; size: 3,8; opacity: 0,1,0; color: #aaa,#222"></a-entity>
+        <a-entity spe-particles="texture: https://harlyq.github.io/aframe-spe-particles-component/assets/fog.png; velocity: .2 1 0;position-spread: 14 -30 0; velocity-spread: .2 0 .2; particle-count: 100; max-age: 3; size: 3,8; opacity: 0,1,0; color: #aaa,#222"></a-entity>
+        <a-entity spe-particles="texture: https://harlyq.github.io/aframe-spe-particles-component/assets/fog.png; velocity: .2 1 0;position-spread: 16 -30 0; velocity-spread: .2 0 .2; particle-count: 100; max-age: 3; size: 3,8; opacity: 0,1,0; color: #aaa,#222"></a-entity>
+        <a-entity spe-particles="texture: https://harlyq.github.io/aframe-spe-particles-component/assets/fog.png; velocity: .2 1 0;position-spread: 11 -30 0; velocity-spread: .2 0 .2; particle-count: 100; max-age: 3; size: 3,8; opacity: 0,1,0; color: #aaa,#222"></a-entity>
+        <a-entity spe-particles="texture: https://harlyq.github.io/aframe-spe-particles-component/assets/fog.png; velocity: .2 1 0;position-spread: 13 -30 0; velocity-spread: .2 0 .2; particle-count: 100; max-age: 3; size: 3,8; opacity: 0,1,0; color: #aaa,#222"></a-entity>
+        <a-entity spe-particles="texture: https://harlyq.github.io/aframe-spe-particles-component/assets/fog.png; velocity: .2 1 0;position-spread: 15 -30 0; velocity-spread: .2 0 .2; particle-count: 100; max-age: 3; size: 3,8; opacity: 0,1,0; color: #aaa,#222"></a-entity>
+        <a-entity spe-particles="texture: https://harlyq.github.io/aframe-spe-particles-component/assets/fog.png; velocity: .2 1 0;position-spread: 17 -30 0; velocity-spread: .2 0 .2; particle-count: 100; max-age: 3; size: 3,8; opacity: 0,1,0; color: #aaa,#222"></a-entity>
+        <a-entity spe-particles="texture: https://harlyq.github.io/aframe-spe-particles-component/assets/fog.png; velocity: .2 1 0;position-spread: 19 -30 0; velocity-spread: .2 0 .2; particle-count: 100; max-age: 3; size: 3,8; opacity: 0,1,0; color: #aaa,#222"></a-entity>
+
+
+        <a-entity position ="25 0 0" 
+        spe-particles="texture: https://harlyq.github.io/aframe-spe-particles-component/assets/fireworks_sheet.png; texture-frames: 5 5; particle-count: 2; max-age: 2; size: 50">
+         
+          </a-entity>
+
+          <a-entity position="20 0 7"spe-particles=" color: yellow, red; distribution: disc; radius: .1; randomize-position: false; particle-count: 150; velocity: 5; velocity-spread: 3; drag: 1; max-age: .6; active-multiplier: 1000; size: 1,.2; direction: backward">
+           
+          </a-entity>
+
+          <a-entity position="10 0 7"spe-particles=" color: yellow, red; distribution: disc; radius: .1; randomize-position: false; particle-count: 150; velocity: 5; velocity-spread: 3; drag: 1; max-age: .6; active-multiplier: 1000; size: 1,.2; direction: forward">
+           
+        </a-entity>
+    </a-scene>
+</body>
+
+</html>
